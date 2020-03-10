@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- Main Activity -->
+    <string name="app_name">Run &amp; Frac</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_interval">Interval Training</string>
+    <string name="menu_stats">Stats</string>
+    <string name="menu_programs">Programs</string>
+
+    <string name="start_running">Start \n Running</string>
+    <!-- Main Activity -->
+
+    <!-- Interval Fragment -->
+    <string name="interval_sets">Sets</string>
+    <string name="interval_workout">Workout Time</string>
+    <string name="interval_rest">Rest Time</string>
+    <string name="interval_start_running">Start Running</string>
+    <string name="interval_min">min</string>
+    <string name="interval_min_sec_separator">:</string>
+    <string name="title_activity_running">RunningActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <!-- Interval Fragment -->
+
+    <!-- Running Activity -->
+    <string name="running_speed">Speed</string>
+    <string name="running_average_speed">Average Speed</string>
+    <string name="running_speed_initial">0.0 km/h</string>
+    <string name="running_speed_unit">&#160;km/h</string>
+
+    <string name="running_pace">Pace</string>
+    <string name="running_average_pace">Average Pace</string>
+    <string name="running_pace_value">0,00 min/km</string>
+    <string name="running_pace_unit">&#160;min/km</string>
+
+    <string name="running_distance">Distance</string>
+    <string name="running_distance_value">0,00 km</string>
+    <string name="running_distance_unit">&#160;km</string>
+
+    <string name="running_altitude">Altitude</string>
+    <string name="running_altitude_gain">Altitude Gain</string>
+    <string name="running_altitude_loss">Altitude Loss</string>
+    <string name="running_altitude_unit">&#160;m</string>
+
+    <string name="running_pause">Pause</string>
+    <string name="running_resume">Resume</string>
+    <string name="running_end">End</string>
+    <string name="running_start_interval">Start Interval</string>
+    <!-- Running Activity -->
+
+    <!-- Running Notification -->
+    <string name="running_notif_resume">Resume</string>
+    <string name="running_notif_end">End</string>
+    <string name="running_notif_speed">Speed : &#160;</string>
+    <string name="running_notif_distance">Distance : &#160;</string>
+    <string name="running_notif_time">Time : &#160;</string>
+    <!-- Running Notification -->
+
+    <string name="location_updated">Location Updated: %1$s</string>
+    <string name="launch_activity">Launch activity</string>
+    <string name="location_unknown">Location unknown</string>
+    <string name="location_updates_label">Location Updates</string>
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="ok">OK</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

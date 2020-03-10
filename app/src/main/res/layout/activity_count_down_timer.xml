@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CountDownTimerActivity"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <antonkozyriatskyi.circularprogressindicator.CircularProgressIndicator
+            android:id="@+id/countdowntimer_progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="32dp"
+            android:layout_weight="10"
+            android:alpha="0.85"
+            app:direction="clockwise"
+            app:dotColor="@color/colorPrimary"
+            app:dotWidth="16dp"
+            app:drawDot="false"
+            app:enableProgressAnimation="true"
+            app:fillBackground="false"
+            app:gradientEndColor="@color/red"
+            app:gradientType="linear"
+            app:progressBackgroundColor="@color/lighter_black"
+            app:progressBackgroundStrokeWidth="16dp"
+            app:progressCap="round"
+            app:progressColor="@color/red"
+            app:progressStrokeWidth="16dp"
+            app:startAngle="270"
+            app:textColor="@color/white"
+            app:textSize="25sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

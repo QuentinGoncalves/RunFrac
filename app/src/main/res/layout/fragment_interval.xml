@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- **************** SETS ********************* -->
+        <TextView
+            android:id="@+id/text_sets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:text="@string/interval_sets"
+            android:textColor="@color/white"
+             />
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/numberpicker_sets_picker"
+            android:layout_width="80dp"
+            android:layout_height="135dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_gravity="center_horizontal"
+            app:np_textColor="@color/white"
+            app:np_selectedTextColor="@color/white"
+            app:np_dividerColor="@color/red"
+            app:np_height="100dp"
+            />
+
+    <!-- **************** WORKOUT ********************* -->
+        <TextView
+            android:id="@+id/text_workout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:text="@string/interval_workout"
+            android:textColor="@color/white"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/text_transparent2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/interval_min"
+                android:alpha="0"
+                />
+
+            <com.shawnlin.numberpicker.NumberPicker
+                android:id="@+id/numberpicker_workout_min"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:np_textColor="@color/white"
+                app:np_selectedTextColor="@color/white"
+                app:np_dividerColor="@color/red"
+                app:np_height="100dp"
+                />
+
+            <TextView
+                android:id="@+id/min_sec_separator2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/interval_min_sec_separator"
+                android:textColor="@color/white"
+
+                />
+
+            <com.shawnlin.numberpicker.NumberPicker
+                android:id="@+id/numberpicker_workout_sec"
+                android:layout_width="80dp"
+                android:layout_height="135dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:np_textColor="@color/white"
+                app:np_selectedTextColor="@color/white"
+                app:np_dividerColor="@color/red"
+                app:np_height="100dp"
+                />
+
+            <TextView
+                android:id="@+id/text_rmin2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/interval_min"
+                android:textColor="@color/white"
+
+                />
+
+        </LinearLayout>
+    <!-- **************** REST ********************* -->
+        <TextView
+            android:id="@+id/text_rest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:text="@string/interval_rest"
+            android:textColor="@color/white"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/text_transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/interval_min"
+            android:alpha="0"
+            />
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/numberpicker_rest_min"
+            android:layout_width="80dp"
+            android:layout_height="135dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:np_textColor="@color/white"
+            app:np_selectedTextColor="@color/white"
+            app:np_dividerColor="@color/red"
+            app:np_height="100dp"
+            />
+
+        <TextView
+            android:id="@+id/min_sec_separator"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/interval_min_sec_separator"
+            android:textColor="@color/white"
+
+            />
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/numberpicker_rest_sec"
+            android:layout_width="80dp"
+            android:layout_height="135dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:np_textColor="@color/white"
+            app:np_selectedTextColor="@color/white"
+            app:np_dividerColor="@color/red"
+            app:np_height="100dp"
+            />
+
+        <TextView
+            android:id="@+id/text_rmin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/interval_min"
+            android:textColor="@color/white"
+
+            />
+    </LinearLayout>
+
+    <!-- **************** START RUNNING ********************* -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp" >
+            <Button
+                android:id="@+id/interval_start_running"
+                android:layout_width="125dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:text="@string/interval_start_running"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_button"
+                android:alpha="0.6"/>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
