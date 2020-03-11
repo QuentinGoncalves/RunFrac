@@ -20,9 +20,9 @@ public class CountDownTimerActivity extends AppCompatActivity {
 
 
         final CircularProgressIndicator circularProgress = findViewById(R.id.countdowntimer_progress);
-        circularProgress.setProgress(0, 15);
+        circularProgress.setProgress(15, 15);
 
-        final CountDownTimer count = new CountDownTimer(1000, 1000) {
+        final CountDownTimer count = new CountDownTimer(15000, 1000) {
 
             public void onTick(long millisUntilFinished) {
                 circularProgress.setCurrentProgress((millisUntilFinished/1000));
